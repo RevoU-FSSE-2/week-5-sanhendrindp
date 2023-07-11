@@ -29,13 +29,19 @@ nav {
   top: 0;
   left: 0;
   padding: 10px 10%;
-  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   z-index: 9999;
+}
+
+.logo img {
+  width: 100px;
 }
 
 .navbar ul {
   display: flex;
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar ul li {
@@ -58,4 +64,54 @@ nav {
   cursor: pointer;
   color: #2553a7;
   display: none;
+}
+
+/* REPONSIVE */
+@media screen and (max-width: 900px) {
+  html {
+    /* font size 8.8px in 55% */
+    font-size: 55%;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #menu {
+    display: block;
+  }
+
+  nav .navbar {
+    position: fixed;
+    top: 7rem;
+    left: 0;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .navbar ul li {
+    margin: 1rem 0;
+    /* width: 100%;
+    text-align: center; */
+  }
+
+  .navbar ul li a {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .navbar.nav-toggle {
+    transform: scaleY(1);
+    opacity: 1;
+  }
 }
