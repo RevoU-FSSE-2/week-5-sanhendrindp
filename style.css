@@ -9,7 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
   /* outline: none; */
-  /* transition: all 0.2s linear; */
+  transition: all 0.2s linear;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -97,9 +97,21 @@ nav {
   color: #444;
 }
 
-/* .navbar ul li a.active, */
 .navbar ul li a:hover {
   color: #2553a7;
+}
+
+.navbar ul li a:hover::after {
+  transform: scaleX(0.5);
+  transition: 0.2s linear;
+}
+
+.navbar ul li a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem solid #2553a7;
+  transform: scaleX(0);
 }
 
 #menu {
