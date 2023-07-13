@@ -125,7 +125,8 @@ nav {
   z-index: 0;
 }
 
-header .content {
+header .content,
+#join .content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,20 +144,23 @@ header .content h1 {
   /* padding: 0 1rem; */
 }
 
-header .content p {
+header .content p,
+#join .content p {
   color: white;
   font-size: 2rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
   /* padding: 1rem 25rem; */
 }
 
-header .card-container {
+header .card-container,
+#join .card-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-header .card-container .card {
+header .card-container .card,
+#join .card-container .card {
   height: 20rem;
   width: 25rem;
   background-color: #fafafa;
@@ -167,7 +171,8 @@ header .card-container .card {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
-header .card-container .card i {
+header .card-container .card i,
+#join .card-container .card i {
   /* width: 6rem;
   height: 6rem;
   line-height: 6rem; */
@@ -177,12 +182,14 @@ header .card-container .card i {
   color: #2553a7;
 }
 
-header .card-container .card h3 {
+header .card-container .card h3,
+#join .card-container .card h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
-header .card-container .card p {
+header .card-container .card p,
+#join .card-container .card p {
   font-size: 1.2rem;
   margin: 0 1rem;
 }
@@ -194,7 +201,7 @@ header .card-container .card p {
 }
 
 .about h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   /* padding: 0 1rem; */
   padding-top: 10rem;
@@ -202,7 +209,7 @@ header .card-container .card p {
 }
 
 .about hr {
-  width: 15%;
+  width: 10%;
   height: 0.5rem;
   border: none;
   background-color: #2553a7;
@@ -255,6 +262,25 @@ header .card-container .card p {
 .about .row .content p {
   font-size: 1.6rem;
   padding: 1rem 0;
+}
+
+/* JOIN US */
+#join .content h2 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+  padding: 0 0 1.5rem;
+  /* padding: 0 1rem; */
+}
+
+#join .content hr {
+  width: 10%;
+  height: 0.5rem;
+  border: none;
+  background-color: #fafafa;
+  margin: auto;
+  /* padding-bottom: 3rem; */
+  margin-bottom: 3rem;
 }
 
 /* REPONSIVE */
