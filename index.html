@@ -24,9 +24,9 @@
 
   <body>
     <!-- PRE LOADER START -->
-    <div class="loader">
+    <!-- <div class="loader">
       <img src="images/dmk-logo.png" alt="" />
-    </div>
+    </div> -->
     <!-- PRE LOADER END -->
 
     <!-- NAVBAR START -->
@@ -47,7 +47,7 @@
     <!-- NAVBAR END -->
 
     <!-- HEADER START -->
-    <header id="header">
+    <header id="header" class="parallax">
       <div class="content">
         <h1>DATA ENTRY COMPANY</h1>
         <p>Providing clean and accurate datasets for machine learning</p>
@@ -70,7 +70,7 @@
 
         <div class="card">
           <i class="fa-solid fa-images"></i>
-          <h3>IMAGE & DATA TAGGING</h3>
+          <h3><span class="multiple-text">IMAGE & DATA TAGGING</span></h3>
           <p>
             Clean up raw data by assigning relevant tags keywords and categories
           </p>
@@ -83,6 +83,7 @@
       <!-- ABOUT START -->
       <section id="about" class="about">
         <h2>ABOUT US</h2>
+        <hr />
         <div class="row">
           <div class="image">
             <img src="images/about.jpg" alt="Data entry company" />
@@ -107,8 +108,14 @@
         </div>
       </section>
       <!-- ABOUT END -->
+
+      <section class="parallax">
+        <h2>CONTACT US</h2>
+      </section>
     </main>
 
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- EXTERNAL JS -->
     <script src="script.js"></script>
   </body>

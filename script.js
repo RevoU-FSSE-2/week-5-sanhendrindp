@@ -21,3 +21,12 @@ menuBtn.addEventListener("click", function () {
   this.classList.toggle("fa-xmark");
   navbar.classList.toggle("nav-toggle");
 });
+
+// TYPED JS
+// const typed = new Typed(".multiple-text", {
+//   strings: ["IMAGE & DATA TAGGING", "CATEGORIZATION", "AUDIT"],
+//   typeSpeed: 100,
+//   backSpeed: 100,
+//   backDelay: 2000,
+//   loop: true,
+// });
