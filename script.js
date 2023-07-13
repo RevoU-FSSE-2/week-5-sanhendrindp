@@ -7,6 +7,10 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     loader.classList.add("loader-hidden");
   }, 3000);
+
+  // loader.addEventListener("transitionend", function () {
+  //   document.body.removeChild("loader");
+  // });
 });
 
 // HAMBURGER MENU OPEN/CLOSE

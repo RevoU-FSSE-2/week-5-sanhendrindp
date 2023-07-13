@@ -9,7 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
   /* outline: none; */
-  transition: all 0.2s linear;
+  /* transition: all 0.2s linear; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -30,6 +30,7 @@ html {
   z-index: 9999;
   position: fixed;
   flex-direction: column;
+  /* transition: 0.5s; */
 }
 
 .loader img {
@@ -136,7 +137,7 @@ header .content {
 
 header .content h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
   padding: 0 0 1.5rem;
   /* padding: 0 1rem; */
@@ -184,6 +185,41 @@ header .card-container .card h3 {
 header .card-container .card p {
   font-size: 1.2rem;
   margin: 0 1rem;
+}
+
+/* ABOUT */
+.about {
+  min-height: 90vh;
+  padding: 0 5rem;
+}
+
+.about h2 {
+  font-size: 4rem;
+  text-align: center;
+  /* padding: 0 1rem; */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.about .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .row .image img {
+  /* height: 60vh;
+  width: 40vw; */
+  width: 50rem;
+}
+
+.about .row .content {
+  padding-left: 5rem;
+}
+
+.about .row .content p {
+  font-size: 1.6rem;
+  padding: 1rem 0;
 }
 
 /* REPONSIVE */
@@ -234,5 +270,20 @@ header .card-container .card p {
   .navbar.nav-toggle {
     transform: scaleY(1);
     opacity: 1;
+  }
+
+  .about .row {
+    flex-direction: column;
+  }
+
+  .about .row .content {
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about .row .image img {
+    width: 40rem;
   }
 }
