@@ -238,10 +238,10 @@ header .card-container .card p,
 
 /* .about .row .image {
   display: flex;
-  width: 200rem;
-  height: 40rem;
+  width: 150vw;
+  height: 50vh;
   background-image: url("images/about.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   animation: changeImage 15s ease infinite;
 }
 
@@ -358,6 +358,6 @@ header .card-container .card p,
 
 @media screen and (max-width: 450px) {
   .about .row .image img {
-    width: 40rem;
+    width: 30rem;
   }
 }
