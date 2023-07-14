@@ -21,6 +21,9 @@
 - [Website Display](#website-display)
 - [Design Concept](#design-concept--structure)
 - [Website Feature](#website-feature)
+- [External Library](#external-library)
+- [Custom Domain Setting](#custom-domain-setting)
+- [Lighthouse Score](#lighthouse-score)
 
 # Introduction
 
@@ -72,6 +75,49 @@ In this project assignment, I created a company profile website which is based o
 <img src="images/readme/contact-form.PNG" width="500" alt="built with love badge" />
 </p>
 
+# External Library
+
+For external library, i use [Font Awesome](https://fontawesome.com/) to helping me get access some beautiful icon for this website.
+To use Font awesome, simply just the provided CDN below.
+
+```css
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+```
+
+# Custom Domain Setting
+
+I used Cloudflare for the DNS management setting.
+
+<p align="center">
+<img src="images/readme/cloudflare.PNG" alt="built with love badge" />
+</p>
+
+After that, simply used Netlify to add site based on custom domains that have been set via Cloudflare.
+
+<p align="center">
+<img src="images/readme/netlify.PNG" alt="built with love badge" />
+</p>
+
+# Lighthouse Score
+
+### On Desktop
+
+<p align="center">
+<img src="images/readme/lighthouse-desktop.PNG" alt="built with love badge" />
+</p>
+
+### On Mobile
+
+<p align="center">
+<img src="images/readme/lighthouse-mobile.PNG" alt="built with love badge" />
+</p>
+
 ---
 
 <p align="center">🙏 Thanks</p>
@@ -87,3 +133,4 @@ In this project assignment, I created a company profile website which is based o
     <img src="https://forthebadge.com/images/badges/open-source.svg" alt="open source badge" />
  </a>
  </p>
+```
