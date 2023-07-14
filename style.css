@@ -662,4 +662,10 @@ footer h2 {
     width: 15rem;
     margin: 0 2rem;
   }
+
+  .contact .row .maps iframe {
+    height: 40vh;
+    width: 80vw;
+    margin-bottom: 2rem;
+  }
 }
