@@ -22,6 +22,22 @@ menuBtn.addEventListener("click", function () {
   navbar.classList.toggle("nav-toggle");
 });
 
+// IMAGE GALLERY
+
+document.querySelectorAll(".gallery-container img").forEach((image) => {
+  image.onclick = function () {
+    document.querySelector(".popup-gallery").style.display = "block";
+    document.querySelector(".popup-gallery img").src =
+      image.getAttribute("src");
+    document.querySelector("nav").style.display = "none";
+  };
+});
+
+document.querySelector(".popup-gallery i").onclick = function () {
+  document.querySelector(".popup-gallery").style.display = "none";
+  document.querySelector("nav").style.display = "flex";
+};
+
 // TYPED JS
 // const typed = new Typed(".multiple-text", {
 //   strings: ["IMAGE & DATA TAGGING", "CATEGORIZATION", "AUDIT"],

@@ -9,7 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
   /* outline: none; */
-  transition: all 0.2s linear;
+  /* transition: all 0.2s linear; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -139,7 +139,8 @@ nav {
 }
 
 header .content,
-#join .content {
+#join .content,
+#gallery .content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,7 +282,8 @@ header .card-container .card p,
 }
 
 /* JOIN US */
-#join .content h2 {
+#join .content h2,
+#gallery .content h2 {
   color: white;
   font-size: 3rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
@@ -289,7 +291,8 @@ header .card-container .card p,
   /* padding: 0 1rem; */
 }
 
-#join .content hr {
+#join .content hr,
+#gallery .content hr {
   width: 10%;
   height: 0.5rem;
   border: none;
@@ -344,7 +347,7 @@ header .card-container .card p,
   width: 100%;
 }
 
-.slider::before,
+/* .slider::before,
 .slider::after {
   background: linear-gradient(
     to right,
@@ -367,6 +370,78 @@ header .card-container .card p,
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
+} */
+
+/* GALLERY */
+#gallery .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+#gallery .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  /* padding: 0 1.5rem; */
+}
+
+#gallery .gallery-container .gallery-img {
+  height: 25rem;
+  width: 35rem;
+  overflow: hidden;
+  cursor: pointer;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+#gallery .gallery-container .gallery-img img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+  transition: 0.2s linear;
+}
+
+#gallery .gallery-container .gallery-img:hover img {
+  transform: scale(1.1);
+}
+
+#gallery .popup-gallery {
+  position: fixed;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+}
+
+#gallery .popup-gallery i {
+  position: absolute;
+  color: white;
+  top: 2rem;
+  right: 2rem;
+  /* transform: translate(-50%, -50%); */
+  font-size: 4rem;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+#gallery .popup-gallery img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75rem;
+  object-fit: cover;
 }
 
 /* REPONSIVE */
@@ -432,6 +507,10 @@ header .card-container .card p,
   .clients .slider .slide-track .slide {
     height: 8rem;
     width: 20rem;
+  }
+
+  #gallery .popup-gallery img {
+    width: 95%;
   }
 }
 
