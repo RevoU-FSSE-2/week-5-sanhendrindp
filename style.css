@@ -454,16 +454,19 @@ header .card-container .card p,
 
 /* CONTACT */
 .contact {
-  background: #808080;
+  /* background: #808080; */
+  background: linear-gradient(260deg, #808080, #c5c5c5);
   padding-bottom: 5rem;
 }
 
 .contact h2 {
   color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .contact h3 {
   color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .contact .row {
