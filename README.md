@@ -19,8 +19,8 @@
 
 - [Introduction](#introduction)
 - [Website Display](#website-display)
-- [Niagahoster](#niagahoster)
-- [Cloudflare](#cloudflare)
+- [Design Concept](#design-concept--structure)
+- [Website Feature](#website-feature)
 
 # Introduction
 
@@ -42,9 +42,39 @@ In this project assignment, I created a company profile website which is based o
 
 # Design Concept / Structure
 
-![Design](images/readme/design%20concept.png)
+<p align="center">
+<img src="images/readme/design concept.png" width="300" alt="built with love badge" />
+</p>
+
+# Website Feature
+
+### Loading screen
+
+<p align="center">
+<img src="images/readme/loading.PNG" width="300" alt="built with love badge" />
+</p>
+
+### Hamburger button
+
+<p align="center">
+<img src="images/readme/hamburgerbtn.PNG" width="300" alt="built with love badge" />
+</p>
+
+### Popup gallery
+
+<p align="center">
+<img src="images/readme/popup-gallery.PNG" width="500" alt="built with love badge" />
+</p>
+
+### Contact form with send to email accout
+
+<p align="center">
+<img src="images/readme/contact-form.PNG" width="500" alt="built with love badge" />
+</p>
 
 ---
+
+<p align="center">🙏 Thanks</p>
 
 <p align="center">
   <a href="https://github.com/EddieHubCommunity" target="_blank" rel="noopener noreferrer">
