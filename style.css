@@ -454,7 +454,7 @@ header .card-container .card p,
 
 /* CONTACT */
 .contact {
-  background: #646464;
+  background: #808080;
   padding-bottom: 5rem;
 }
 
@@ -513,7 +513,6 @@ textarea {
   color: #2553a7;
 }
 
-/* FOOTER */
 /* FOOTER */
 footer {
   background: #2553a7;
@@ -667,5 +666,9 @@ footer h2 {
     height: 40vh;
     width: 80vw;
     margin-bottom: 2rem;
+  }
+
+  .contact .row .form-container input[type="submit"] {
+    width: 100%;
   }
 }
