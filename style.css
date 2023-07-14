@@ -9,7 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
   /* outline: none; */
-  /* transition: all 0.2s linear; */
+  transition: all 0.2s linear;
   font-family: "Montserrat", sans-serif;
 }
 
