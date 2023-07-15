@@ -30,12 +30,20 @@ document.querySelectorAll(".gallery-container img").forEach((image) => {
     document.querySelector(".popup-gallery img").src =
       image.getAttribute("src");
     document.querySelector("nav").style.display = "none";
+
+    // const noScroll = function () {
+    //   window.scrollTo(0, 0);
+    // };
+
+    // window.addEventListener("scroll", noScroll);
+    document.body.style.overflow = "hidden";
   };
 });
 
 document.querySelector(".popup-gallery i").onclick = function () {
   document.querySelector(".popup-gallery").style.display = "none";
   document.querySelector("nav").style.display = "flex";
+  document.body.style.overflow = "auto";
 };
 
 // FORM CONTACT
