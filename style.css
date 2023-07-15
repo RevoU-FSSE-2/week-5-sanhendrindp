@@ -8,7 +8,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  /* outline: none; */
   transition: all 0.2s linear;
   font-family: "Montserrat", sans-serif;
 }
@@ -31,7 +30,7 @@ html {
   z-index: 9999;
   position: fixed;
   flex-direction: column;
-  /* transition: 0.5s; */
+  transition: 1.5s;
 }
 
 .loader img {
@@ -155,7 +154,6 @@ header .content h1 {
   font-size: 5rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
   padding: 0 0 1.5rem;
-  /* padding: 0 1rem; */
 }
 
 header .content p,
@@ -163,7 +161,6 @@ header .content p,
   color: white;
   font-size: 2rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-  /* padding: 1rem 25rem; */
 }
 
 header .card-container,
@@ -220,7 +217,6 @@ header .card-container .card p,
 .contact h2 {
   font-size: 3rem;
   text-align: center;
-  /* padding: 0 1rem; */
   padding-top: 10rem;
   padding-bottom: 1rem;
 }
@@ -233,7 +229,6 @@ header .card-container .card p,
   border: none;
   background-color: #2553a7;
   margin: auto;
-  /* padding-bottom: 3rem; */
   margin-bottom: 3rem;
 }
 
@@ -291,7 +286,6 @@ header .card-container .card p,
   font-size: 3rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
   padding: 0 0 1.5rem;
-  /* padding: 0 1rem; */
 }
 
 #join .content hr,
@@ -301,7 +295,6 @@ header .card-container .card p,
   border: none;
   background-color: #fafafa;
   margin: auto;
-  /* padding-bottom: 3rem; */
   margin-bottom: 3rem;
 }
 
@@ -396,7 +389,6 @@ header .card-container .card p,
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
-  /* padding: 0 1.5rem; */
 }
 
 #gallery .gallery-container .gallery-img {
@@ -454,7 +446,6 @@ header .card-container .card p,
 
 /* CONTACT */
 .contact {
-  /* background: #808080; */
   background: linear-gradient(260deg, #808080, #c5c5c5);
   padding-bottom: 5rem;
 }
@@ -605,8 +596,6 @@ footer h2 {
 
   .navbar ul li {
     margin: 1rem 0;
-    /* width: 100%;
-    text-align: center; */
   }
 
   .navbar ul li a {
