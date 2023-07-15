@@ -133,4 +133,3 @@ After that, simply used Netlify to add site based on custom domains that have be
     <img src="https://forthebadge.com/images/badges/open-source.svg" alt="open source badge" />
  </a>
  </p>
-```
