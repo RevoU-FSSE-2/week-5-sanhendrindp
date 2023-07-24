@@ -7,6 +7,8 @@
       name="description"
       content="PT Data Media Kreasi, helping data scientists, machine learning engineers and AI company by providing dataset data for their artifical intelligence algorithms training and improvement."
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- EXTERNAL CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- WEB ICON -->
@@ -87,10 +89,10 @@
         <h2>ABOUT US</h2>
         <hr />
         <div class="row">
-          <div class="image">
+          <div class="image" data-aos="fade-right">
             <img src="images/about.jpg" alt="Data entry company" />
           </div>
-          <div class="content">
+          <div class="content" data-aos="fade-left" data-aos-delay="200">
             <p>
               <strong>PT Data Media Kreasi</strong> or
               <strong>PT DMK</strong> is a data manufacturer, data processor,
@@ -119,7 +121,7 @@
           <p>Benefits for everyone who join us</p>
         </div>
         <div class="card-container">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <i class="fa-solid fa-house-user"></i>
             <h3>HOMEBASE</h3>
             <p>
@@ -128,7 +130,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-delay="100">
             <i class="fa-regular fa-building"></i>
             <h3>CENTREBASE</h3>
             <p>
@@ -137,7 +139,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
             <i class="fa-solid fa-people-group"></i>
             <h3><span class="multiple-text">EVERYONE CAN JOIN</span></h3>
             <p>
@@ -146,7 +148,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-delay="300">
             <i class="fa-regular fa-newspaper"></i>
             <h3>HIGH VOLUME OF JOBS</h3>
             <p>
@@ -230,28 +232,28 @@
         </div>
 
         <div class="gallery-container">
-          <div class="gallery-img">
+          <div class="gallery-img" data-aos="flip-left" data-aos-delay="50">
             <img
               src="images/gallery/gallery.jpg"
               alt="Meeting with team leader"
             />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img" data-aos="flip-left" data-aos-delay="100">
             <img src="images/gallery/gallery2.jpg" alt="Office first floor" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img" data-aos="flip-left" data-aos-delay="150">
             <img src="images/gallery/gallery3.jpg" alt="Monthly meeting" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img" data-aos="flip-right" data-aos-delay="300">
             <img
               src="images/gallery/gallery4.jpg"
               alt="Meeting with all section"
             />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img" data-aos="flip-right" data-aos-delay="250">
             <img src="images/gallery/gallery5.jpg" alt="Office second floor" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img" data-aos="flip-right" data-aos-delay="200">
             <img src="images/gallery/gallery6.jpg" alt="Office third floor" />
           </div>
         </div>
@@ -272,7 +274,7 @@
         <hr />
         <h3>Need help? Want to ask? Feel free to send us a message</h3>
         <div class="row">
-          <div class="maps">
+          <div class="maps" data-aos="fade-right" data-aos-delay="300">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.3159484638268!2d112.60081407407067!3d-7.9662637793971935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7883930694445d%3A0x1648d800485b6fe3!2sDMK!5e0!3m2!1sen!2sid!4v1689316492760!5m2!1sen!2sid"
               allowfullscreen=""
@@ -281,7 +283,7 @@
             ></iframe>
           </div>
 
-          <div class="form-container">
+          <div class="form-container" data-aos="fade-left">
             <form action="https://formspree.io/f/xjvqvgdq" method="POST">
               <input
                 type="text"
@@ -347,8 +349,11 @@
     </footer>
     <!-- FOOTER END -->
 
-    <!-- TYPED JS -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- EXTERNAL JS -->
     <script src="script.js"></script>
   </body>

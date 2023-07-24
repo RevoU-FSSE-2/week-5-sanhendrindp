@@ -30,12 +30,6 @@ document.querySelectorAll(".gallery-container img").forEach((image) => {
     document.querySelector(".popup-gallery img").src =
       image.getAttribute("src");
     document.querySelector("nav").style.display = "none";
-
-    // const noScroll = function () {
-    //   window.scrollTo(0, 0);
-    // };
-
-    // window.addEventListener("scroll", noScroll);
     document.body.style.overflow = "hidden";
   };
 });
